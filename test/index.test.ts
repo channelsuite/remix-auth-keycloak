@@ -94,7 +94,7 @@ describe(KeycloakStrategy, () => {
 
       expect(redirectUrl.hostname).toBe("example.app");
       expect(redirectUrl.pathname).toBe(
-        "/realms/example/protocol/openid-connect/auth"
+        "/auth/realms/example/protocol/openid-connect/auth"
       );
     }
   });

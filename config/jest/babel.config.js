@@ -7,6 +7,7 @@
 /* eslint-disable unicorn/prefer-module */
 module.exports = {
   presets: [
+    "@babel/preset-typescript",
     [
       "@babel/preset-env",
       {
@@ -19,6 +20,5 @@ module.exports = {
         runtime: "automatic",
       },
     ],
-    "@babel/preset-typescript",
   ],
 };

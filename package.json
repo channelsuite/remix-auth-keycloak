@@ -1,12 +1,11 @@
 {
   "name": "remix-auth-keycloak",
-  "version": "1.2.0",
-  "repository": "github:mlcsthor/remix-auth-keycloak",
-  "homepage": "https://github.com/mlcsthor/remix-auth-keycloak#readme",
+  "version": "1.6.0",
+  "repository": "github:gshilin/remix-auth-keycloak",
+  "homepage": "https://github.com/gshilin/remix-auth-keycloak#readme",
   "author": {
-    "name": "Maxime Lucas",
-    "email": "maxime@mlcs.me",
-    "url": "https://maximelucas.dev"
+    "name": "Gregory Shilin",
+    "email": "gshilin@gmail.com"
   },
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -35,10 +34,10 @@
     "@remix-run/server-runtime": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10",
+    "@babel/core": "^7.18.6",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
-    "@babel/preset-typescript": "^7.16.7",
+    "@babel/preset-typescript": "^7.21.5",
     "@remix-run/node": "^1.4.3",
     "@remix-run/react": "^1.4.3",
     "@remix-run/server-runtime": "^1.0.0",
@@ -63,6 +62,6 @@
   },
   "dependencies": {
     "remix-auth": "^3.2.2",
-    "remix-auth-oauth2": "^1.2.2"
+    "remix-auth-oauth2": "^1.6.0"
   }
 }

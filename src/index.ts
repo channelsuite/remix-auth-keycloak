@@ -74,8 +74,8 @@ export class KeycloakStrategy<User> extends OAuth2Strategy<
 
     super(
       {
-        authorizationURL: `${host}/realms/${options.realm}/protocol/openid-connect/auth`,
-        tokenURL: `${host}/realms/${options.realm}/protocol/openid-connect/token`,
+        authorizationURL: `${host}/auth/realms/${options.realm}/protocol/openid-connect/auth`,
+        tokenURL: `${host}/auth/realms/${options.realm}/protocol/openid-connect/token`,
         clientID: options.clientID,
         clientSecret: options.clientSecret,
         callbackURL: options.callbackURL,
@@ -83,7 +83,7 @@ export class KeycloakStrategy<User> extends OAuth2Strategy<
       verify
     );
 
-    this.userInfoURL = `${host}/realms/${options.realm}/protocol/openid-connect/userinfo`;
+    this.userInfoURL = `${host}/auth/realms/${options.realm}/protocol/openid-connect/userinfo`;
     this.scope = options.scope || "openid profile email";
   }
 
