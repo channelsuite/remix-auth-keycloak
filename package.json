@@ -1,7 +1,7 @@
 {
-  "name": "remix-auth-keycloak",
-  "version": "1.6.0",
-  "repository": "github:gshilin/remix-auth-keycloak",
+  "name": "@ti8m/remix-auth-keycloak",
+  "version": "1.7.0",
+  "repository": "github:channelsuite/remix-auth-keycloak",
   "homepage": "https://github.com/gshilin/remix-auth-keycloak#readme",
   "author": {
     "name": "Gregory Shilin",
