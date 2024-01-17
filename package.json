@@ -1,7 +1,10 @@
 {
   "name": "@ti8m/remix-auth-keycloak",
   "version": "1.7.0",
-  "repository": "github:channelsuite/remix-auth-keycloak",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/channelsuite/remix-auth-keycloak.git"
+  },
   "homepage": "https://github.com/gshilin/remix-auth-keycloak#readme",
   "author": {
     "name": "Gregory Shilin",
